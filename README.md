@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+In this project, let's build a Routing Practice app by applying the concepts we have learned till now.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Refer to the image below:
 
-## Available Scripts
+![image](https://github.com/bukka5sandhya/React-Js-Routing-Practice/assets/133884532/338396fb-4c9f-44e5-bd1b-c97198b789e8)
 
-In the project directory, you can run:
 
-### `npm start`
+https://assets.ccbp.in/frontend/content/react-js/routing-practice-output.gif
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Design Files
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Click to view
 
-### `npm test`
+Extra Small (Size < 576px), Small (Size >= 576px), Medium (Size >= 768px)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Large (Size >= 992px) and Extra Large (Size >= 1200px)
 
-### `npm run build`
+Set Up Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click to view
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Download dependencies by running npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start up the app using npm start
 
-### `npm run eject`
+Completion Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Functionality to be added
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app must have the following functionalities
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+When the About link in the header is clicked, then the page should navigate to the AboutRoute
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+When the Contact link in the header is clicked, then the page should navigate to the ContactRoute
 
-## Learn More
+When the Home link in the header is clicked, then the page should navigate back to the HomeRoute
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+When an undefined path is provided in the URL, then the page should navigate to the NotFoundRoute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Components Structure
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/bukka5sandhya/React-Js-Routing-Practice/assets/133884532/2231cbdc-257a-4cc7-8fff-d708ca04d374)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/bukka5sandhya/React-Js-Routing-Practice/assets/133884532/ad4dd90c-7f68-4ac7-81a3-9bf561df26bf)
 
-### Making a Progressive Web App
+Implementation Files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Use these files to complete the implementation:
 
-### Advanced Configuration
+src/components/App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+src/components/App.css
 
-### Deployment
+src/components/Header/index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+src/components/Header/index.css
 
-### `npm run build` fails to minify
+src/components/Home/index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+src/components/Home/index.css
+
+src/components/About/index.js
+
+src/components/About/index.css
+
+src/components/Contact/index.js
+
+src/components/Contact/index.css
+
+src/components/NotFound/index.js
+
+src/components/NotFound/index.
+
+Important Note
+
+Click to view
+
+Resources
+
+Image URLs
+
+https://assets.ccbp.in/frontend/react-js/wave-logo-img.png alt should be wave
+
+https://assets.ccbp.in/frontend/react-js/home-blog-img.png alt should be home
+
+https://assets.ccbp.in/frontend/react-js/about-blog-img.png alt should be about
+
+https://assets.ccbp.in/frontend/react-js/contact-blog-img.png alt should be contact
+
+https://assets.ccbp.in/frontend/react-js/not-found-blog-img.png alt should be not found
+
+Colors
+
+Hex: #6d396b
+
+Hex: #555555
+
+Hex: #551e53
+
+Hex: #12022f
+
+Font-families
+
+Roboto
+
+Things to Keep in Mind
+
+All components you implement should go in the src/components directory.
+
+Don't change the component folder names as those are the files being imported into the tests.
+
+Do not remove the pre-filled code
+
+Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
